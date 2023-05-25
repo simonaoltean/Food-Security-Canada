@@ -32,35 +32,35 @@
 
     <script>
         // Load Plotly figures into containers
-        Plotly.d3.json('path/to/figure1.json', function(figureData) {
+        Plotly.d3.json('security_status_grp.json', function(figureData) {
             Plotly.newPlot('figure-container-1', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure2.json', function(figureData) {
+        Plotly.d3.json('security_status_grp_100.json', function(figureData) {
             Plotly.newPlot('figure-container-2', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure3.json', function(figureData) {
+        Plotly.d3.json('persons_grp.json', function(figureData) {
             Plotly.newPlot('figure-container-3', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure4.json', function(figureData) {
+        Plotly.d3.json('gender_grp.json', function(figureData) {
             Plotly.newPlot('figure-container-4', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure5.json', function(figureData) {
+        Plotly.d3.json('ethnicity_grp.json', function(figureData) {
             Plotly.newPlot('figure-container-5', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure6.json', function(figureData) {
+        Plotly.d3.json('persons_100.json', function(figureData) {
             Plotly.newPlot('figure-container-6', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure7.json', function(figureData) {
+        Plotly.d3.json('gender_grp_100.json', function(figureData) {
             Plotly.newPlot('figure-container-7', figureData.data, figureData.layout);
         });
 
-        Plotly.d3.json('path/to/figure8.json', function(figureData) {
+        Plotly.d3.json('ethnicity_grp_100.json', function(figureData) {
             Plotly.newPlot('figure-container-8', figureData.data, figureData.layout);
         });
     </script>
