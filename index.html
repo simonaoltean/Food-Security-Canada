@@ -4,6 +4,16 @@
     <title>Plotly Dashboard</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
+	 .title-container {
+		font-size: 22px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin: 20px;
+		background-color: white;
+		padding: 10px;
+		opacity: 0.95;
+		text-shadow: 2px 2px 4px rgba(88, 88, 88, 0.5);
+		}
         .figure-container {
 		display: flex;
 		opacity: 0.95;
@@ -16,6 +26,9 @@
     </style>
 </head>
 <body>
+	<div class="title-container">
+		<h1>Food Security in Population of Canada</em></h1>
+	</div>
     <div class="figure-container" id="figure-container-1"></div><br></br>
     <div class="figure-container" id="figure-container-2"></div><br></br>
     <div class="figure-container" id="figure-container-3"></div><br></br>
