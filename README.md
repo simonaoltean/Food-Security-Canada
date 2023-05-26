@@ -1,7 +1,7 @@
 # Food Security Canada Dashboard
 
 ## Overview
-In this dashboard, I've used the raw data from the [Canadian Open Government website](https://open.canada.ca/data/en/dataset/9bcb8daa-a528-47d1-a54e-b2b16d78119f) on food security among the canadian population by demographic characteristics such as age, gender, and ethnicity. The dashboard includes histograms based on the sum of number of people in the different levels of food securiy between 2018 and 2021.
+In this dashboard, I've used the CSV raw data from the [Canadian Open Government website](https://open.canada.ca/data/en/dataset/9bcb8daa-a528-47d1-a54e-b2b16d78119f) on food security among the canadian population by demographic characteristics such as age, gender, and ethnicity. The dashboard includes histograms based on the sum of number of people in the different levels of food securiy between 2018 and 2021.
 The different food security levels include:
 - Food secure
 - Food insecure, severe
